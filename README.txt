@@ -1,0 +1,2 @@
+
+Program untuk mengecek khodam 
