@@ -15,7 +15,7 @@ public class CekKhodamApp{
       
       System.out.println("Enter e for exit");
       System.out.print("Enter your name : ");
-      String name = scan.nextLine();
+      String name = scan.nextLine().trim();
       
       if(name.equals("e")) break;
       
@@ -38,7 +38,7 @@ public class CekKhodamApp{
     /**
      * list of khodam
      */
-    String[] khodam = {"macan", "semut", "kucing", "manuk", "tidak ada", "nyamuk", "paus", "kamitetep", "monyet", "nasi padang", "javascript", "php"};
+    String[] khodam = {"macan", "semut", "kucing", "manuk", "tidak ada", "nyamuk", "paus", "kamitetep", "monyet", "nasi padang", "javascript", "php", "kak gem", "pak vinsen", "anton"};
     
     return khodam[random.nextInt(khodam.length)];
     
